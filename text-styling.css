@@ -1,0 +1,23 @@
+
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold
+}
+
+.chapter-name{
+    font-weight: bold;  
+}
+
+.chapter-name > #current-chapter {
+    color: red    
+}
+
+.horizontal-lists {
+    font-weight: normal;    
+    color: blue;
+    line-height: 0.7
+}
+
+
+
