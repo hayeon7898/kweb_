@@ -1,0 +1,71 @@
+<head>
+    <title>Example domain</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        div {
+            margin: 20px 0
+        }
+
+        .header {
+            height: 100px;
+            background-color: pink;
+            border: 2px solid red
+        }
+        
+        .navbar {
+            height: 200px;
+            background-color: gold;
+            border: 2px solid brown
+        }  
+
+        .content {
+            height: 300px;
+            background-color: skyblue;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+
+        .footer {
+            height: 200px;
+            background-color: lightgreen;
+            border: 2px solid green
+        }
+        
+        @media only screen and (min-width: 800px) {
+
+            .body > div {
+                margin: 0;
+
+            }
+            
+            .navbar {
+                width: 19%;
+                height: 500px;
+                display: inline-block;
+                
+            }
+
+            .content {
+                width: 81%; /* 추가 */
+                height: 500px;
+                display: inline-block;
+            }
+
+            .footer {
+                clear: both;
+            }
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="navbar"></div>
+    <div class="content"></div>
+    <div class="footer"></div>        
+</body>
